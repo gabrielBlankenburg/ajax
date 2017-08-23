@@ -1,0 +1,49 @@
+#form{
+    position: relative;
+    font-size: 1.3em;
+    background-color: #6bdc5b;
+    width: 94%;
+    height: 20vh;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+input{
+    font-size: 1.1rem;
+    width: 100px;
+    padding: 3px;
+    border-radius: 1%;
+    border: 1px solid #75cc68;
+}
+
+/* Submit button */
+#submit{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    background-color: #08786C;
+    border: solid 1px #1b7269;
+    border-radius: 3px;
+    padding: 3px;
+    width: 100px;
+    height: 40px;
+}
+
+/* Table */
+table{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: #6bdc5b;
+    
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 15px 30px;
+}
